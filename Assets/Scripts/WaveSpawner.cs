@@ -8,7 +8,6 @@ public class WaveSpawner : MonoBehaviour {
 
 	public Wave[] waves;
 
-	public Transform enemy;
 	public Transform spawnPoint;
 
 	public float timeBetweenWaves = 5f;
@@ -17,8 +16,6 @@ public class WaveSpawner : MonoBehaviour {
 	public Text waveCountdownText;
 
 	public GameManager gameManager;
-
-	private int waveNumber = 1;
 
 	private int waveIndex = 0;
 
